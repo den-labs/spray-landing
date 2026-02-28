@@ -5,6 +5,7 @@ import sprayIcon from '~/public/favicon.png'
 import Image from 'next/image'
 
 const mainnetAppUrl = 'https://modespray-mainnet.vercel.app/'
+const canonicalSiteUrl = 'https://modespray.vercel.app/'
 
 export function Home() {
   return (
@@ -36,6 +37,16 @@ export function Home() {
         <h2 className="text-balance p-4 text-sm text-zinc-500">
           Send Tokens to Multiple Addresses in One Click
         </h2>
+        <div className="mx-auto mt-2 max-w-xl rounded-full border border-mode/40 bg-mode/10 px-4 py-2 text-xs text-zinc-200">
+          New official link:{' '}
+          <Link
+            href={canonicalSiteUrl}
+            className="font-semibold text-mode underline underline-offset-4"
+          >
+            modespray.vercel.app
+          </Link>
+          . We are no longer maintaining `modespray.xyz`.
+        </div>
       </div>
       <div className="animate-fade-in my-16 flex flex-col text-center">
         <Link href={mainnetAppUrl} passHref target="_blank" rel="noreferrer">
