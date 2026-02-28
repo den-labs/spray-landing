@@ -1,5 +1,5 @@
 const navigation = {
-  main: [{ name: 'GitHub', href: 'https://github.com/wolfcito/mode-spray' }],
+  main: [{ name: 'Launch App', href: 'https://modespray-mainnet.vercel.app/' }],
 }
 
 export function Footer() {

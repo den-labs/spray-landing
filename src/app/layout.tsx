@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     siteName: 'ModeSpray',
     images: [
       {
-        url: `${siteUrl}/og.png`,
+        url: `${siteUrl}/thumbnail.png`,
         width: 1920,
         height: 1080,
       },

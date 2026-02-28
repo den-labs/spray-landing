@@ -1,6 +1,8 @@
+const mainnetAppUrl = 'https://modespray-mainnet.vercel.app/'
+
 export const blockchainTools = [
   {
-    url: 'https://x.com/RevokeCash',
+    url: mainnetAppUrl,
     handle: '@RevokeCash',
     description: 'Revoke your approvals on blockhain.',
     alt: 'icon of @RevokeCash',
@@ -8,7 +10,7 @@ export const blockchainTools = [
       'https://res.cloudinary.com/guffenix/image/upload/v1720335635/modespray/revokecash.jpg',
   },
   {
-    url: 'https://x.com/safe',
+    url: mainnetAppUrl,
     handle: '@safe',
     description: 'A secure way to own assets',
     alt: 'icon of @safe',
