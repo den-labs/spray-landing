@@ -7,7 +7,7 @@ Send ETH & ERC20 Tokens to Multiple Addresses
 
 Mode Spray is a dApp that simplifies the process of sending tokens on Mode. The user-friendly interface allows users to send tokens to multiple wallets in a single transaction. It uses an optimized process to cut down on the transaction fees incurred in transferring funds. You can use Mode Spray to pay contributors, send out grants or just transfer tokens to friends in one go super fast.
 
-![mode-spray-push](https://github.com/wolfcito/mode-spray/assets/66284362/6e4c96fd-7d26-4fb0-9f9c-9b061bdcbc19)
+![mode-spray-push](https://github.com/den-labs/mode-spray/assets/66284362/6e4c96fd-7d26-4fb0-9f9c-9b061bdcbc19)
 
 ## ⚒️ How it works
 
@@ -28,7 +28,7 @@ Mode Spray is a dApp that simplifies the process of sending tokens on Mode. The 
 **Mode Spray 2.0 Introduction:**
 
 - Users can contribute to improvement on GitHub.
-- Repository link: https://github.com/wolfcito/mode-spray.
+- Repository link: https://github.com/den-labs/mode-spray.
 
 **Mainnet Integration:**
 
@@ -57,21 +57,21 @@ Mode Spray is a dApp that simplifies the process of sending tokens on Mode. The 
 
 ## 🪙 Expanded Token Support
 
-![image](https://github.com/wolfcito/mode-spray/assets/791301/d0630f3e-51d4-47be-8ffb-ccb9c8c81b96)
+![image](https://github.com/den-labs/mode-spray/assets/791301/d0630f3e-51d4-47be-8ffb-ccb9c8c81b96)
 
 ## ERC20 tokens
 
-![image](https://github.com/wolfcito/mode-spray/assets/791301/4136b9df-a6de-422c-93a0-cbbc22819728)
+![image](https://github.com/den-labs/mode-spray/assets/791301/4136b9df-a6de-422c-93a0-cbbc22819728)
 
 ## Mainnet Integration
 
-![image](https://github.com/wolfcito/mode-spray/assets/791301/36d53db6-cf06-4159-ba2b-52d202080e30)
+![image](https://github.com/den-labs/mode-spray/assets/791301/36d53db6-cf06-4159-ba2b-52d202080e30)
 
 ## Push Notifications
 
-![image](https://github.com/wolfcito/mode-spray/assets/791301/e641be6c-dd72-45c5-8e32-766d2d3542a1)
+![image](https://github.com/den-labs/mode-spray/assets/791301/e641be6c-dd72-45c5-8e32-766d2d3542a1)
 
-![image](https://github.com/wolfcito/mode-spray/assets/791301/19ddecf2-d976-4044-9577-442a32edc9f7)
+![image](https://github.com/den-labs/mode-spray/assets/791301/19ddecf2-d976-4044-9577-442a32edc9f7)
 
 ## 📜 Example of supported separators
 
