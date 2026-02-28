@@ -6,20 +6,22 @@ import { Footer } from '~/app/components/footer'
 
 import LocalFont from 'next/font/local'
 
+const siteUrl = 'https://modespray.vercel.app'
+
 export const metadata: Metadata = {
   title: {
-    default: 'modespray.xyz',
-    template: '%s | modespray.xyz',
+    default: 'ModeSpray',
+    template: '%s | ModeSpray',
   },
   description: 'Send Tokens to Multiple Addresses in One Click',
   openGraph: {
-    title: 'modespray.xyz',
+    title: 'ModeSpray',
     description: 'Send Tokens to Multiple Addresses in One Click',
-    url: 'https://modespray.xyz',
-    siteName: 'modespray.xyz',
+    url: siteUrl,
+    siteName: 'ModeSpray',
     images: [
       {
-        url: 'https://modespray.xyz/og.png',
+        url: `${siteUrl}/og.png`,
         width: 1920,
         height: 1080,
       },

@@ -4,6 +4,8 @@ import { Particles } from '~/app/components'
 import sprayIcon from '~/public/favicon.png'
 import Image from 'next/image'
 
+const mainnetAppUrl = 'https://modespray-mainnet.vercel.app/'
+
 export function Home() {
   return (
     <div className="mb-8 flex h-screen w-screen flex-col items-center justify-center overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
@@ -36,12 +38,7 @@ export function Home() {
         </h2>
       </div>
       <div className="animate-fade-in my-16 flex flex-col text-center">
-        <Link
-          href="https://app.modespray.xyz"
-          passHref
-          target="_blank"
-          rel="noreferrer"
-        >
+        <Link href={mainnetAppUrl} passHref target="_blank" rel="noreferrer">
           <span className="font-chakra text-neutral-content bg-mode mt-2 rounded-sm p-4 leading-tight">
             Launch
           </span>
