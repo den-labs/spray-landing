@@ -1,4 +1,4 @@
-const mainnetAppUrl = 'https://modespray-mainnet.vercel.app/'
+const mainnetAppUrl = 'https://modespray.vercel.app/app'
 
 export const blockchainTools = [
   {

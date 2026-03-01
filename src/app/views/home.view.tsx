@@ -4,8 +4,8 @@ import { Particles } from '~/app/components'
 import sprayIcon from '~/public/favicon.png'
 import Image from 'next/image'
 
-const mainnetAppUrl = 'https://modespray-mainnet.vercel.app/'
 const canonicalSiteUrl = 'https://modespray.vercel.app/'
+const appUrl = `${canonicalSiteUrl}app`
 
 export function Home() {
   return (
@@ -49,7 +49,7 @@ export function Home() {
         </div>
       </div>
       <div className="animate-fade-in my-16 flex flex-col text-center">
-        <Link href={mainnetAppUrl} passHref target="_blank" rel="noreferrer">
+        <Link href={appUrl} passHref target="_blank" rel="noreferrer">
           <span className="font-chakra text-neutral-content bg-mode mt-2 rounded-sm p-4 leading-tight">
             Launch
           </span>
