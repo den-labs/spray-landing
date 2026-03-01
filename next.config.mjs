@@ -3,6 +3,22 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'app.modespray.xyz' }],
+        destination: 'https://modespray.vercel.app/app',
+        permanent: true,
+      },
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'modespray.xyz' }],
+        destination: 'https://modespray.vercel.app/:path*',
+        permanent: true,
+      },
+    ]
+  },
   async rewrites() {
     return [
       {
